@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Brasil News</string>
+
+    <string name="navigation_drawer_open">Abrir menu gaveta</string>
+    <string name="navigation_drawer_close">Fechar menu gaveta</string>
+
+    <string name="action_search">Buscar</string>
+
+    <string name="image_of_label">Imagem de</string>
+
+    <string name="item_label_news">Todas as notícias do dia</string>
+    <string name="item_label_politics">Política</string>
+    <string name="item_label_business">Negócios</string>
+    <string name="item_label_sport">Esporte</string>
+    <string name="item_label_science_and_tec">Ciências e tecnologia</string>
+    <string name="item_label_health">Saúde</string>
+    <string name="item_label_entertainment">Entretenimento</string>
+    <string name="title_activity_news_details">NewsDetailsActivity</string>
+    <string name="bt_label_fav">Botão de favorito</string>
+    <string name="bt_label_share">Botão de compartilhar</string>
+
+    <string name="permission_inform">
+        Forneça a permissão de acesso ao SDCard para
+        que seja possível compartilhar também a imagem
+        do artigo.
+    </string>
+
+    <string name="chooser_title">
+        Compartilhar artigo em:
+    </string>
+
+    <string name="share_without_image">
+        Compartilhamento sem imagem.
+    </string>
+
+    <string name="initial_share_body">
+        (Brasil News App - Google Play Store)
+        \n\n
+        Artigo:
+    </string>
+
+</resources>

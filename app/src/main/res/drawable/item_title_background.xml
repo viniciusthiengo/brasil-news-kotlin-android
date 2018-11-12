@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Aplicando o gradiente de preto para transparente,
+        iniciando na parte de baixo da View e indo para cima,
+        respeitando o posicionamento de 90º.
+    -->
+    <gradient
+            android:startColor="#000000"
+            android:endColor="#00000000"
+            android:angle="90" />
+</shape>
