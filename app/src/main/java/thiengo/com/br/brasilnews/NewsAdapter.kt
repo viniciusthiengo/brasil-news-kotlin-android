@@ -24,7 +24,7 @@ class NewsAdapter(
             .from( context )
             .inflate( R.layout.news, parent, false )
 
-        return ViewHolder(v)
+        return ViewHolder( v )
     }
 
     override fun onBindViewHolder(

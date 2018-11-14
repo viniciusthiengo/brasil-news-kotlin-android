@@ -1,28 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_margin="2dp"
-        android:layout_width="match_parent"
-        android:layout_height="170dp">
-
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="2dp"
+    android:layout_width="match_parent"
+    android:layout_height="170dp">
 
     <ImageView
-            android:id="@+id/iv_banner"
-            android:scaleType="centerCrop"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
+        android:id="@+id/iv_banner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
 
     <TextView
-            android:background="@drawable/item_title_background"
-            android:paddingTop="6dp"
-            android:paddingBottom="6dp"
-            android:paddingLeft="8dp"
-            android:paddingRight="8dp"
-            android:textSize="15sp"
-            android:textColor="@android:color/white"
-            android:layout_gravity="bottom|start"
-            android:id="@+id/tv_title"
-            android:gravity="bottom"
-            android:layout_width="match_parent"
-            android:layout_height="126dp"/>
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="126dp"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:background="@drawable/item_title_background"
+        android:textSize="15sp"
+        android:textColor="@android:color/white"
+        android:layout_gravity="bottom|start"
+        android:gravity="bottom"/>
 </FrameLayout>
