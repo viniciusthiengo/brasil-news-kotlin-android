@@ -123,7 +123,7 @@ class NewsDetailsActivity :
     /*
      * Método que será invocado quando a permissão de
      * acesso ao SDCard for concedida e assim a imagem
-     * principal do artigo também estar liberada para
+     * principal do artigo também esta liberada para
      * compartilhamento.
      * */
     private fun shareNewsWithImage(){

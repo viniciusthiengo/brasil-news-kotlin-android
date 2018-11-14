@@ -13,7 +13,7 @@ import java.io.ByteArrayOutputStream
  * então retorna a URI desse Bitmap.
  * */
 fun getBitmapImageViewUri(
-    inContext: Context,
+    context: Context,
     imageView: ImageView ): Uri {
 
     val drawable = imageView.getDrawable() as BitmapDrawable
@@ -27,7 +27,7 @@ fun getBitmapImageViewUri(
     )
 
     val path = MediaStore.Images.Media.insertImage(
-        inContext.getContentResolver(),
+        context.getContentResolver(),
         bitmap,
         "",
         null
